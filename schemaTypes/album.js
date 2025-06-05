@@ -3,6 +3,11 @@ export default {
   title: 'Album',
   type: 'document',
   fields: [
+		{
+      name: 'title',
+      title: 'Title',
+      type: 'string',
+    },
     {
       name: 'cover',
       title: 'Cover',
@@ -10,16 +15,23 @@ export default {
       options: {
         hotspot: true,
       },
+      fields: [
+        {
+          name: 'alt',
+          title: 'Alt text',
+          type: 'string',
+        },
+      ],
     },
-		{
-			name: 'alt',
-			title: 'Alt text',
-			type: 'text',
-		},
     {
       name: 'link',
-      title: 'Link Spotify',
+      title: 'Link',
       type: 'url',
     },
+    {
+      name: 'hoverText',
+      title: 'Hover Text',
+      type: 'string',
+    },
   ],
-};
+}
