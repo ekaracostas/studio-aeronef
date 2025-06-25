@@ -3,11 +3,6 @@ export default {
   title: 'Album',
   type: 'document',
   fields: [
-		{
-      name: 'title',
-      title: 'Title',
-      type: 'string',
-    },
     {
       name: 'cover',
       title: 'Cover',
