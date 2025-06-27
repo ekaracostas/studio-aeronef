@@ -4,6 +4,26 @@ export default {
   type: 'document',
   fields: [
     {
+      name: 'title',
+      title: 'Title',
+      type: 'string',
+    },
+    {
+      name: 'createdOn',
+      title: 'Created on',
+      type: 'date',
+    },
+    {
+      name: 'hoverText',
+      title: 'Hover text',
+      type: 'string',
+    },
+    {
+      name: 'link',
+      title: 'Link',
+      type: 'url',
+    },
+    {
       name: 'cover',
       title: 'Cover',
       type: 'image',
@@ -17,16 +37,6 @@ export default {
           type: 'string',
         },
       ],
-    },
-    {
-      name: 'link',
-      title: 'Link',
-      type: 'url',
-    },
-    {
-      name: 'hoverText',
-      title: 'Hover Text',
-      type: 'string',
-    },
+    },      
   ],
 }
